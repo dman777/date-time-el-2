@@ -1,0 +1,22 @@
+{
+  "name": "vite-lit-ts-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lit": "^3.2.0",
+    "@material/mwc-tab": "^0.27.0",
+    "@material/mwc-tab-bar": "^0.27.0",
+    "@material/web": "^2.2.0",
+    "luxon": "^3.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8"
+  }
+}
